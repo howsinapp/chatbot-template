@@ -2,6 +2,8 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
+# st.logo("img/logo.jpg")
+st.image("img/logo.jpg", width=200)
 st.title("💬 Chatbot")
 st.write(
     "This is a simple chatbot that uses your technical documents to generate responses"
